@@ -5,7 +5,7 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix jop: <https://exam.paris8.fr/onto/jop#> .
+@prefix jop: <https://exam.univ-paris8.fr/onto/jop#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
 <https://exam.univ-paris8.fr/onto/jop#> a owl:Ontology ;
