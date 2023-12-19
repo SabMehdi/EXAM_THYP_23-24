@@ -20,19 +20,22 @@
             "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/2",
             "o:id": 2
         },
-        "o:thumbnail": null,
+        "o:thumbnail": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/assets\/2",
+            "o:id": 2
+        },
         "o:title": "bolt",
         "thumbnail_display_urls": {
-            "large": null,
-            "medium": null,
-            "square": null
+            "large": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg",
+            "medium": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg",
+            "square": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg"
         },
         "o:created": {
             "@value": "2023-12-19T22:58:37+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:modified": {
-            "@value": "2023-12-19T22:58:37+00:00",
+            "@value": "2023-12-19T23:17:06+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:primary_media": null,
@@ -106,19 +109,22 @@
             "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/2",
             "o:id": 2
         },
-        "o:thumbnail": null,
+        "o:thumbnail": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/assets\/2",
+            "o:id": 2
+        },
         "o:title": "sharapova",
         "thumbnail_display_urls": {
-            "large": null,
-            "medium": null,
-            "square": null
+            "large": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg",
+            "medium": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg",
+            "square": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg"
         },
         "o:created": {
             "@value": "2023-12-19T22:59:04+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:modified": {
-            "@value": "2023-12-19T22:59:04+00:00",
+            "@value": "2023-12-19T23:16:53+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:primary_media": null,
@@ -183,19 +189,22 @@
             "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/5",
             "o:id": 5
         },
-        "o:thumbnail": null,
+        "o:thumbnail": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/assets\/2",
+            "o:id": 2
+        },
         "o:title": "Tenis",
         "thumbnail_display_urls": {
-            "large": null,
-            "medium": null,
-            "square": null
+            "large": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg",
+            "medium": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg",
+            "square": "http:\/\/localhost\/omeka-s\/files\/asset\/d523ed433a32da8cbc6ea4775c7d33d627cb9019.jpg"
         },
         "o:created": {
             "@value": "2023-12-19T23:00:15+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:modified": {
-            "@value": "2023-12-19T23:00:15+00:00",
+            "@value": "2023-12-19T23:16:39+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:primary_media": null,
@@ -251,19 +260,22 @@
             "@id": "http:\/\/localhost\/omeka-s\/api\/resource_templates\/4",
             "o:id": 4
         },
-        "o:thumbnail": null,
+        "o:thumbnail": {
+            "@id": "http:\/\/localhost\/omeka-s\/api\/assets\/1",
+            "o:id": 1
+        },
         "o:title": "Natation",
         "thumbnail_display_urls": {
-            "large": null,
-            "medium": null,
-            "square": null
+            "large": "http:\/\/localhost\/omeka-s\/files\/asset\/5ec1c6f428f179d20d1b17b0344c01d5ee779f42.jpg",
+            "medium": "http:\/\/localhost\/omeka-s\/files\/asset\/5ec1c6f428f179d20d1b17b0344c01d5ee779f42.jpg",
+            "square": "http:\/\/localhost\/omeka-s\/files\/asset\/5ec1c6f428f179d20d1b17b0344c01d5ee779f42.jpg"
         },
         "o:created": {
             "@value": "2023-12-19T23:00:50+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:modified": {
-            "@value": "2023-12-19T23:00:50+00:00",
+            "@value": "2023-12-19T23:16:02+00:00",
             "@type": "http:\/\/www.w3.org\/2001\/XMLSchema#dateTime"
         },
         "o:primary_media": null,
