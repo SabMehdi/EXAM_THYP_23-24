@@ -38,9 +38,23 @@ function showItems(items) {
         container.appendChild(itemDiv);
     });
 }
+
+function filterItems(event) {
+    const searchText = event.target.value.toLowerCase();
+    const filteredItems = allItems.filter(item => {
+        const title = item['o:title'].toLowerCase();
+        return title.includes(searchText);
+    });
+    showItems(filteredItems);
+}
+ // ChatGpt
 document.addEventListener('DOMContentLoaded', function() {
-    const apiUrl = 'http://localhost/omeka-s/api/items';
+    const apiUrl = 'http://localhost/omeka-s/api/items'; 
     getData(apiUrl).then(data => {
-        showItems(data);
+        allItems = data; 
+        showItems(data); 
+
+       
+        document.getElementById('filter-input').addEventListener('input', filterItems);
     });
 });
