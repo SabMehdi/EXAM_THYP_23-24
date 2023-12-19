@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix jop: <https://exam.paris8.fr/onto/jop#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<https://exam.univ-paris8.fr/onto/jop#> a owl:Ontology ;
+    dcterms:title "Jeux Olympiques" .
+
+jop:Athlete a rdfs:Class ;
+    rdfs:label "Athlete" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jop:Sport a rdfs:Class ;
+    rdfs:label "Sport" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+    
+
+jop:Evenement a rdfs:Class ;
+    rdfs:label "Evenement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .     
+
+jop:AthleteID a rdf:Property ;
+    rdfs:label "AthleteID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jop:SportID a rdf:Property ;
+    rdfs:label "SportID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jop:EvenementID a rdf:Property ;
+    rdfs:label "EvenementID" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jop:hasResult a rdf:Property ;
+    rdfs:label "A comme resultat " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jop:hasRecord a rdf:Property ;
+    rdfs:label "a comme record" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
